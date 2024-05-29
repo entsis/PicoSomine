@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-6wnq77"
-      binary: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-6wnq77"
+      source: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-2j2h12"
+      binary: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-2j2h12"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -119,28 +119,28 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-6wnq77'
+        Change Dir: 'D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-2j2h12'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_248a1\\fast
-        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_248a1.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_248a1.dir\\build
-        Building C object CMakeFiles/cmTC_248a1.dir/CMakeCCompilerABI.c.obj
-        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_248a1.dir\\CMakeCCompilerABI.c.obj.d --working-dir="D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-6wnq77" --filter-prefix="Not: eklenen dosya:  " -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm5DDF.tmp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_0156b\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_0156b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_0156b.dir\\build
+        Building C object CMakeFiles/cmTC_0156b.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_0156b.dir\\CMakeCCompilerABI.c.obj.d --working-dir="D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-2j2h12" --filter-prefix="Not: eklenen dosya:  " -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm842F.tmp
         CMakeCCompilerABI.c
-        Linking C executable cmTC_248a1.exe
-        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_248a1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_248a1.dir\\objects1.rsp @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm5F18.tmp
+        Linking C executable cmTC_0156b.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0156b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_0156b.dir\\objects1.rsp @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm8559.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_248a1.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_248a1.dir/embed.manifest
+        Create CMakeFiles\\cmTC_0156b.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_0156b.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_248a1.dir/manifest.res CMakeFiles\\cmTC_248a1.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_0156b.dir/manifest.res CMakeFiles\\cmTC_0156b.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_248a1.dir\\objects1.rsp /out:cmTC_248a1.exe /implib:cmTC_248a1.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-6wnq77\\cmTC_248a1.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_248a1.dir/intermediate.manifest CMakeFiles\\cmTC_248a1.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_0156b.dir\\objects1.rsp /out:cmTC_0156b.exe /implib:cmTC_0156b.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-2j2h12\\cmTC_0156b.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0156b.dir/intermediate.manifest CMakeFiles\\cmTC_0156b.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_248a1.dir/intermediate.manifest /out:CMakeFiles\\cmTC_248a1.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_0156b.dir/intermediate.manifest /out:CMakeFiles\\cmTC_0156b.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_248a1.dir/manifest.res CMakeFiles\\cmTC_248a1.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_0156b.dir/manifest.res CMakeFiles\\cmTC_0156b.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_248a1.dir\\objects1.rsp /out:cmTC_248a1.exe /implib:cmTC_248a1.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-6wnq77\\cmTC_248a1.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_248a1.dir/intermediate.manifest CMakeFiles\\cmTC_248a1.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_0156b.dir\\objects1.rsp /out:cmTC_0156b.exe /implib:cmTC_0156b.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-2j2h12\\cmTC_0156b.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0156b.dir/intermediate.manifest CMakeFiles\\cmTC_0156b.dir/manifest.res
         
       exitCode: 0
   -
@@ -180,8 +180,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-psz4s7"
-      binary: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-psz4s7"
+      source: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-ok2jvl"
+      binary: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-ok2jvl"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -190,28 +190,28 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-psz4s7'
+        Change Dir: 'D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-ok2jvl'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_7be88\\fast
-        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_7be88.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_7be88.dir\\build
-        Building CXX object CMakeFiles/cmTC_7be88.dir/CMakeCXXCompilerABI.cpp.obj
-        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7be88.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir="D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-psz4s7" --filter-prefix="Not: eklenen dosya:  " -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm6030.tmp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_3eca2\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_3eca2.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3eca2.dir\\build
+        Building CXX object CMakeFiles/cmTC_3eca2.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3eca2.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir="D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-ok2jvl" --filter-prefix="Not: eklenen dosya:  " -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm8632.tmp
         CMakeCXXCompilerABI.cpp
-        Linking CXX executable cmTC_7be88.exe
-        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7be88.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7be88.dir\\objects1.rsp @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm6060.tmp
+        Linking CXX executable cmTC_3eca2.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3eca2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_3eca2.dir\\objects1.rsp @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm8662.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_7be88.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_7be88.dir/embed.manifest
+        Create CMakeFiles\\cmTC_3eca2.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_3eca2.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_7be88.dir/manifest.res CMakeFiles\\cmTC_7be88.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_3eca2.dir/manifest.res CMakeFiles\\cmTC_3eca2.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7be88.dir\\objects1.rsp /out:cmTC_7be88.exe /implib:cmTC_7be88.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-psz4s7\\cmTC_7be88.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7be88.dir/intermediate.manifest CMakeFiles\\cmTC_7be88.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_3eca2.dir\\objects1.rsp /out:cmTC_3eca2.exe /implib:cmTC_3eca2.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-ok2jvl\\cmTC_3eca2.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3eca2.dir/intermediate.manifest CMakeFiles\\cmTC_3eca2.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_7be88.dir/intermediate.manifest /out:CMakeFiles\\cmTC_7be88.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_3eca2.dir/intermediate.manifest /out:CMakeFiles\\cmTC_3eca2.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_7be88.dir/manifest.res CMakeFiles\\cmTC_7be88.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_3eca2.dir/manifest.res CMakeFiles\\cmTC_3eca2.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7be88.dir\\objects1.rsp /out:cmTC_7be88.exe /implib:cmTC_7be88.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-psz4s7\\cmTC_7be88.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7be88.dir/intermediate.manifest CMakeFiles\\cmTC_7be88.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_3eca2.dir\\objects1.rsp /out:cmTC_3eca2.exe /implib:cmTC_3eca2.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-ok2jvl\\cmTC_3eca2.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3eca2.dir/intermediate.manifest CMakeFiles\\cmTC_3eca2.dir/manifest.res
         
       exitCode: 0
   -

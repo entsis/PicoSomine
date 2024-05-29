@@ -1124,9 +1124,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles\PicoSomine.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x00000000        0xc CMakeFiles\PicoSomine.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
- .text          0x00000000        0x0 C:\Users\entsis\AppData\Local\Temp\ccYjwko0.o
- .data          0x00000000        0x0 C:\Users\entsis\AppData\Local\Temp\ccYjwko0.o
- .bss           0x00000000        0x0 C:\Users\entsis\AppData\Local\Temp\ccYjwko0.o
+ .text          0x00000000        0x0 C:\Users\entsis\AppData\Local\Temp\ccCX9GBt.o
+ .data          0x00000000        0x0 C:\Users\entsis\AppData\Local\Temp\ccCX9GBt.o
+ .bss           0x00000000        0x0 C:\Users\entsis\AppData\Local\Temp\ccCX9GBt.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1342,7 +1342,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\entsis\AppData\Local\Temp\ccYjwko0.o
+ .boot2         0x10000000      0x100 C:\Users\entsis\AppData\Local\Temp\ccCX9GBt.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2311,7 +2311,7 @@ LOAD CMakeFiles\PicoSomine.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_lin
 LOAD CMakeFiles\PicoSomine.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 LOAD CMakeFiles\PicoSomine.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 LOAD CMakeFiles\PicoSomine.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
-LOAD C:\Users\entsis\AppData\Local\Temp\ccYjwko0.o
+LOAD C:\Users\entsis\AppData\Local\Temp\ccCX9GBt.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2404,7 +2404,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000059c       0x2c CMakeFiles\PicoSomine.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
  .ARM.attributes
-                0x000005c8       0x22 C:\Users\entsis\AppData\Local\Temp\ccYjwko0.o
+                0x000005c8       0x22 C:\Users\entsis\AppData\Local\Temp\ccCX9GBt.o
  .ARM.attributes
                 0x000005ea       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

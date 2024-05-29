@@ -129,7 +129,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/Projeler/Entegre Sistem/PicoSomine/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/PicoPWM
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/PicoSomine
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ld.exe
@@ -300,15 +300,6 @@ PICO_STDIO_UART:BOOL=ON
 
 //Globally enable stdio USB
 PICO_STDIO_USB:BOOL=OFF
-
-//Value Computed by CMake
-PicoPWM_BINARY_DIR:STATIC=D:/Projeler/Entegre Sistem/PicoSomine/build
-
-//Value Computed by CMake
-PicoPWM_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-PicoPWM_SOURCE_DIR:STATIC=D:/Projeler/Entegre Sistem/PicoSomine
 
 //Value Computed by CMake
 PicoSomine_BINARY_DIR:STATIC=D:/Projeler/Entegre Sistem/PicoSomine/build
@@ -505,7 +496,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=C:/Pico/pico-sdk/src/rp2_common/boot_stage2
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=C:/Pico/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=C:/Pico/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Pico/pico-sdk/src/rp2_common/cmsis C:/Pico/pico-sdk/src/rp2040/hardware_regs C:/Pico/pico-sdk/src/rp2_common/cmsis C:/Pico/pico-sdk/src/rp2040/hardware_regs C:/Pico/pico-sdk/src/rp2_common/cmsis C:/Pico/pico-sdk/src/rp2040/hardware_regs C:/Pico/pico-sdk/src/rp2_common/cmsis C:/Pico/pico-sdk/src/rp2040/hardware_regs C:/Pico/pico-sdk/src/rp2_common/cmsis C:/Pico/pico-sdk/src/rp2040/hardware_regs C:/Pico/pico-sdk/src/rp2_common/cmsis C:/Pico/pico-sdk/src/rp2040/hardware_regs C:/Pico/pico-sdk/src/rp2_common/cmsis C:/Pico/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Pico/pico-sdk/src/rp2_common/cmsis C:/Pico/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= C:/Pico/pico-sdk/src/common C:/Pico/pico-sdk/lib/cyw43-driver/src C:/Pico/pico-sdk/src/rp2_common C:/Pico/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1

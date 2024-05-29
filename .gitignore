@@ -1,2 +1,3 @@
 .build/*
+.build/.cmake/api/v1/*
 !.build/PicoSomine.uf2

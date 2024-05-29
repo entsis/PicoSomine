@@ -1,0 +1,245 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      x86 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30154
+      Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/3.29.0/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Not: eklenen dosya:  D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Not: eklenen dosya:  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      x86 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30154
+      Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/3.29.0/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Not: eklenen dosya:  D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Not: eklenen dosya:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-6wnq77"
+      binary: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-6wnq77"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-6wnq77'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_248a1\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_248a1.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_248a1.dir\\build
+        Building C object CMakeFiles/cmTC_248a1.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_248a1.dir\\CMakeCCompilerABI.c.obj.d --working-dir="D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-6wnq77" --filter-prefix="Not: eklenen dosya:  " -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm5DDF.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_248a1.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_248a1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_248a1.dir\\objects1.rsp @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm5F18.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_248a1.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_248a1.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_248a1.dir/manifest.res CMakeFiles\\cmTC_248a1.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_248a1.dir\\objects1.rsp /out:cmTC_248a1.exe /implib:cmTC_248a1.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-6wnq77\\cmTC_248a1.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_248a1.dir/intermediate.manifest CMakeFiles\\cmTC_248a1.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_248a1.dir/intermediate.manifest /out:CMakeFiles\\cmTC_248a1.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_248a1.dir/manifest.res CMakeFiles\\cmTC_248a1.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_248a1.dir\\objects1.rsp /out:cmTC_248a1.exe /implib:cmTC_248a1.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-6wnq77\\cmTC_248a1.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_248a1.dir/intermediate.manifest CMakeFiles\\cmTC_248a1.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~2/MICROS~2/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~2/MICROS~2/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-psz4s7"
+      binary: "D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-psz4s7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Projeler/Entegre Sistem/PicoSomine/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-psz4s7'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_7be88\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_7be88.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_7be88.dir\\build
+        Building CXX object CMakeFiles/cmTC_7be88.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7be88.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir="D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-psz4s7" --filter-prefix="Not: eklenen dosya:  " -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm6030.tmp
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_7be88.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7be88.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7be88.dir\\objects1.rsp @C:\\Users\\entsis\\AppData\\Local\\Temp\\nm6060.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_7be88.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_7be88.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_7be88.dir/manifest.res CMakeFiles\\cmTC_7be88.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7be88.dir\\objects1.rsp /out:cmTC_7be88.exe /implib:cmTC_7be88.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-psz4s7\\cmTC_7be88.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7be88.dir/intermediate.manifest CMakeFiles\\cmTC_7be88.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_7be88.dir/intermediate.manifest /out:CMakeFiles\\cmTC_7be88.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_7be88.dir/manifest.res CMakeFiles\\cmTC_7be88.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7be88.dir\\objects1.rsp /out:cmTC_7be88.exe /implib:cmTC_7be88.lib /pdb:D:\\Projeler\\Entegre Sistem\\PicoSomine\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-psz4s7\\cmTC_7be88.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7be88.dir/intermediate.manifest CMakeFiles\\cmTC_7be88.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~2/MICROS~2/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~2/MICROS~2/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

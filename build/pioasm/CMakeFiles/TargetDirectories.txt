@@ -1,0 +1,3 @@
+D:/Projeler/Entegre Sistem/PicoSomine/build/pioasm/CMakeFiles/pioasm.dir
+D:/Projeler/Entegre Sistem/PicoSomine/build/pioasm/CMakeFiles/edit_cache.dir
+D:/Projeler/Entegre Sistem/PicoSomine/build/pioasm/CMakeFiles/rebuild_cache.dir
